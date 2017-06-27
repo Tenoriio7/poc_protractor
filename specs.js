@@ -1,5 +1,5 @@
 browser.ignoreSynchronization = true;
-var helper = require('./helper')
+var helper = require('.helpers/helper')
 describe ('Logos', function() {
   xit('should have the blog logo', function() { //xit faz com que ignore o teste
    browser.get('https://stackoverflow.com');
